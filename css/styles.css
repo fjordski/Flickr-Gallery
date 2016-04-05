@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+* {
+	font-family: 'Varela Round';
+	list-style: none;
+}
+
+.one {
+	background: #efefef;
+	height: 2000px;
+	background-size: cover;
+}
+
+.picture {
+	display: inline-block;
+	padding: 15px;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.col-centered {
+	display: inline-block;
+	float: none;
+}
+
+.header {
+	margin-bottom: 15px;
+}
+
+.selected {
+	background-color: white;
+	transition: .4s;
+}
